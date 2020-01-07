@@ -1,4 +1,4 @@
-package main
+package main	// golang start running in the main package
 
 import "fmt"
 
