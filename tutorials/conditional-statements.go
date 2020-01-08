@@ -10,6 +10,10 @@ func main() {
 		fmt.Println("you are young")
 	}
 
+	if length := 186.5; length > 180 {	// if with a short statement
+		fmt.Println("he is tall")
+	}
+
 	grade := "A"
 	switch grade {
 	case "A":
