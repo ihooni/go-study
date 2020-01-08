@@ -18,9 +18,10 @@ func constant() {
 func variables() {
 	var pi float64 = 3.14
 	var name string = "ihooni"
+	var string, number = "good", 35	// declaration with initializer
 	a, b := true, false	// shorthand syntax (automatically assigned the correct type)
 
-	fmt.Println("variables: ", pi, name, a, b)
+	fmt.Println("variables: ", pi, name, string, number, a, b)
 }
 
 func arr() {
